@@ -3,7 +3,7 @@ jobs:
   build:
     docker: 
       - image: docker:dind
-  steps:
+    steps:
     - checkout
     - setup_docker_engine
     - run:
